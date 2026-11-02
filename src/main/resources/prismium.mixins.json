@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.prismium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "ParticleAccessor",
+    "SignTextCullingMixin",
+    "ParticleMixin",
+    "ParticleGroupAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

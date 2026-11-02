@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "prismium",
+  "version": "${version}",
+  "name": "Prismium",
+  "description": "Vanilla+ performance optimizations. Press G to open Prismium Settings.",
+  "authors": [
+    "JustAlmazik"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.prismium.Prismium"
+    ],
+    "client": [
+      "com.prismium.PrismiumClient"
+    ],
+    "modmenu": [
+      "com.prismium.PrismiumModMenu"
+    ]
+  },
+  "mixins": [
+    "prismium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": "*",
+    "modmenu": "*"
+  },
+  "icon": "assets/prismium/icon.png"
+}
